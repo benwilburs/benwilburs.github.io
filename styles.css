@@ -1,0 +1,72 @@
+* {
+    font-family: junicode, serif;
+    background-color: khaki;
+}
+
+h1 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.frontpage {
+    align: right;
+}
+
+image.frontpage {
+    height: auto;
+    width: auto;
+    max-height: 1000px;
+    max-width: 1000px;
+}
+
+.photogallery figure img {
+    display: block;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribution {
+    color: rgba(128,128,128,0.6);
+    text-align: center;
+    font-size: smaller;
+}
+
+:lang(ja),:lang(zh) {
+    font-family: KouzanBrushFont, serif;
+    font-size: larger;
+}
+
+:lang(ja) rt {
+    font-family: serif;
+    font-size: 60%;
+}
+
+:lang(zh) rt {
+    font-family: serif;
+    font-size: 60%;
+}
+
+.verbatim {
+    quotes: none;
+}
+
+.dropcap {
+    font-size: 200%;
+    float: left;
+}
+
+.indent {
+    padding-left: 20px;
+}
+
+.inarticle {
+    height: auto;
+    width: auto;
+    max-height: 800px;
+    max-width: 800px;
+}
