@@ -70,3 +70,7 @@ image.frontpage {
     max-height: 800px;
     max-width: 800px;
 }
+
+.footnote {
+    color: grey;
+}
