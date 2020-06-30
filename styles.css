@@ -1,33 +1,54 @@
-* {
+body {
     font-family: junicode, serif;
     background-color: khaki;
+}
+
+nav {
+    float: left;
+    background-color: rgba(173,216,230,0.5);
+    min-width: 12.5vw;
+    min-height: 100%;
+    margin-right: 1vw;
+}
+
+main {
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
 }
 
 h1 {
     text-align: center;
 }
 
+footer {
+    color: rgba(128,128,128,0.5);
+}
+
 .subtitle {
     text-align: center;
 }
 
-.frontpage {
-    align: right;
+.notfooter {
+    min-height: 95vh;
 }
 
-image.frontpage {
+.frontpage {
     height: auto;
     width: auto;
     max-height: 1000px;
     max-width: 1000px;
 }
 
-.photogallery figure img {
+figure img {
     display: block;
     height: auto;
     width: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .attribution {
