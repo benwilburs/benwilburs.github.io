@@ -1,5 +1,6 @@
 body {
     font-family: junicode, serif;
+    font-size: 100%;
     background-color: khaki;
 }
 
@@ -58,19 +59,31 @@ figcaption {
     font-size: smaller;
 }
 
+
+:lang(ja) ruby, :lang(zh) ruby {
+    font-size: 67%;
+}
+
 :lang(ja),:lang(zh) {
-    font-family: KouzanBrushFont, serif;
-    font-size: larger;
+    font-family: serif;
+    font-size: 150%;
 }
 
 :lang(ja) rt {
     font-family: serif;
-    font-size: 60%;
+    font-size: 80%;
+    padding-bottom: 3px;
 }
 
 :lang(zh) rt {
     font-family: serif;
-    font-size: 60%;
+    font-size: 80%;
+    padding-bottom: 5px;
+}
+
+.ipa {
+    font-family: DejaVu Sans, sans-serif;
+    font-size: 90%;
 }
 
 .verbatim {
@@ -95,4 +108,8 @@ figcaption {
 
 .footnote {
     color: grey;
+}
+
+.transliteration {
+    font-style: italic;
 }
